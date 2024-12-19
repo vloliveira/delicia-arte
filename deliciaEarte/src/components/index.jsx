@@ -9,10 +9,9 @@ function navBar() {
             <img src={logoTeste} alt="logo teste" />
           </div>
           <div className="texto">
-            <h1>Sobre Nós</h1>
-            <h1>Serviços</h1>
-            <h1>Contato</h1>
-            <h1>Compre Aqui</h1>
+            <a href="sobre">Sobre Nós</a>
+            <a href="servicos">Serviços</a>
+            <a href="compre">Compre Aqui</a>
           </div>
         </div>
       </S.Section>

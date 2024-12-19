@@ -1,22 +1,24 @@
 import styled from "styled-components";
 
 export const Section = styled.div`
+  background-color: blueviolet;
+
   .navBar {
     display: flex;
-    max-width: 100%;
     justify-content: center;
     align-items: center;
-    gap: 35rem;
-    padding: 2rem;
+    width: 100%;
+    height: 5rem;
+    gap: 3rem;
+    padding: 0.7rem;
   }
   img {
-    height: 5rem;
+    height: 4rem;
     border-radius: 100%;
   }
   .texto {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    gap: 2.5rem;
+    font-size: 1rem;
+    gap: 1.5rem;
   }
 `;
